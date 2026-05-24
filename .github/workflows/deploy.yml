@@ -1,4 +1,4 @@
-name: Notify server
+name: Deploy Changes
 
 on:
   push:
@@ -17,3 +17,4 @@ jobs:
           port: ${{ vars.SERVER_PORT }}
           username: ${{ vars.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
+          request_pty: false
