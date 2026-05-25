@@ -1,0 +1,2 @@
+give @s ender_eye[consumable={consume_seconds:1000000, animation:"spyglass", sound:"minecraft:ui.button.click", has_consume_particles:0b}, custom_data={hns.tool:"inspect"}, custom_name='{"text":"Inspect Marker", "italic":false, "color":"gold"}']
+give @s nether_star[consumable={consume_seconds:1000000, animation:"spyglass", sound:"minecraft:ui.button.click", has_consume_particles:0b}, custom_data={hns.tool:"center"}, custom_name='{"text":"Center Marker", "italic":false, "color":"aqua"}']

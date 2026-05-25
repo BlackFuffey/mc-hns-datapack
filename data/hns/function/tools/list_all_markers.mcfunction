@@ -1,0 +1,1 @@
+execute at @e[tag=hns.marker] run tellraw @s [{"type":"nbt", "entity":"@n[tag=hns.marker]", "nbt":"CustomName"},{"text":" -- ", "color":"gray"},{"type":"nbt", "entity":"@n[tag=hns.marker]", "nbt":"Pos"}]

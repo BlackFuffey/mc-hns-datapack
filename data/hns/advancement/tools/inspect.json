@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "hns.tool": "inspect"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hns:tools/z.toolbox/inspect/trigger"
+  }
+}
